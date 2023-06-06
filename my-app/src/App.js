@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Intro from './components/intro';
+import About from './components/about/About';
 
 function App() {
   return (
     <div>
-      <Intro></Intro>
+      <Intro />
+      <About />
     </div>
   );
 }
