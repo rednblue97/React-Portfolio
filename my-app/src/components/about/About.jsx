@@ -18,14 +18,12 @@ const About = () => {
             <div className="a-right">
                 <h1 className="a-title">About Me</h1>
                 <p className="a-sub">
-             It is a long established fact that a reader will be distracted by the
-          readable content.
+                An avid enthusiast of National Parks who recently accomplished a full stack coding bootcamp,
+                blending your passion for nature with newfound skills in software development.
         </p>
         <p className="a-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+        Throughout my coding bootcamp journey, I found immense joy in collaborating with my classmates, fostering a supportive and dynamic learning environment. 
+        Together, we explored various programming concepts, tackling challenges head-on and expanding our knowledge. The most rewarding part was translating our newfound expertise into building practical applications that have the potential to make a real impact in the world.
         </p>
         <div className="a-badge">
             <img src={Badge} alt="Badge" className="a-badge-img" />
