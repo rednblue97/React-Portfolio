@@ -23,13 +23,17 @@
     justify-content: space-between;
 }
 
+.i-desc {
+    font-size: 35px;
+}
+
 .i-intro {
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 32px;
+    font-weight: 450;
 }
 
 .i-name{
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .i-title{
