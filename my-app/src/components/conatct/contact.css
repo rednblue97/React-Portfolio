@@ -80,3 +80,9 @@ button {
     font-weight:500;
     cursor: crosshair;
 }
+
+@media screen and (max-width: 480px) {
+    .c-wrapper {
+        flex-direction: column;
+    }
+}

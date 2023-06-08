@@ -3,17 +3,20 @@ import Phone from "../../img/phone.png"
 import Email from "../../img/email.png"
 import Home from "../../img/address.png"
 import { useRef } from "react"
-import emailjs from 'emailjs';
+import emailjs from 'emailjs-com';
+import { useState } from "react"
 
 const Contact = () => {
-    const formRef = useRef()
+    const formRef = useRef();
+    const [done, setDone] = useState(false)
 
     const handleSubmit = (e) =>{
         e.preventDefault();
 
-        emailjs.sendForm('', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('service_7b1y1jo', 'template_yh85uli', formRef.current, 'ntFmnXwhnX-g-HTEh')
       .then((result) => {
           console.log(result.text);
+          setDone(true)
       }, (error) => {
           console.log(error.text);
       });
@@ -56,6 +59,7 @@ const Contact = () => {
                         <input type="text" placeholder="Email" name="user_email"/>
                         <textarea rows="5" placeholder="Message" name="message"/>
                         <button>Submit</button>
+                        {done && "Thank You!"}
                     </form>
                 </div>
             </div>
