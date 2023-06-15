@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.94abcada.css",
+    "main.js": "/React-Portfolio/static/js/main.948dde4a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/React-Portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/clearme.PNG": "/React-Portfolio/static/media/clearme.1fadaa782e44badc3a3e.PNG",
+    "static/media/overlook.jpg": "/React-Portfolio/static/media/overlook.12a22c5186a4f6d64bba.jpg",
+    "static/media/Homepage.png": "/React-Portfolio/static/media/Homepage.2603d895f0eaac0f8631.png",
+    "static/media/bops.png": "/React-Portfolio/static/media/bops.09b2fa2d65b1d61d390a.png",
+    "static/media/OverUnder21Home.JPG": "/React-Portfolio/static/media/OverUnder21Home.0e4599892d28967fab28.JPG",
+    "static/media/teamgen.JPG": "/React-Portfolio/static/media/teamgen.0ec90c469dd7282318b6.JPG",
+    "static/media/badge.png": "/React-Portfolio/static/media/badge.3eb09040d630f228b3aa.png",
+    "static/media/MYSQL.JPG": "/React-Portfolio/static/media/MYSQL.8c3d087d4c22da69882d.JPG",
+    "static/media/address.png": "/React-Portfolio/static/media/address.a01cb8cc428702f30bec.png",
+    "static/media/email.png": "/React-Portfolio/static/media/email.a49e015815e3ac6d2bd3.png",
+    "static/media/passgen.png": "/React-Portfolio/static/media/passgen.85118866f1fa33659f4c.png",
+    "static/media/phone.png": "/React-Portfolio/static/media/phone.d90a6d23cf5129d853bb.png",
+    "static/media/logo.svg": "/React-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.94abcada.css.map": "/React-Portfolio/static/css/main.94abcada.css.map",
+    "main.948dde4a.js.map": "/React-Portfolio/static/js/main.948dde4a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/React-Portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94abcada.css",
+    "static/js/main.948dde4a.js"
+  ]
+}
