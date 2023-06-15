@@ -5,7 +5,6 @@ import Home from "../../img/address.png"
 import { useRef } from "react"
 import emailjs from 'emailjs-com';
 import { useState } from "react"
-import FileSaver from 'file-saver';
 import Resume from "../../img/Resume (9).pdf"
 
 const Contact = () => {
@@ -25,12 +24,6 @@ const Contact = () => {
 
     }
 
-    const saveFile = () => {
-        FileSaver.saveAs(
-            process.env.REACT_APP_CLIENT_URL + "../../img/Resume(9).pdf",
-            "Resume(9).pdf"
-    );
-    }
 
     return (
         <div className="c">
