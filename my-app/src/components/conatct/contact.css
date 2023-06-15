@@ -89,6 +89,23 @@ button {
     height: 100px;
 }
 
+.res{
+    border: none;
+    padding: 15px;
+    background-color:gold;
+    color: white;
+    font-weight:500;
+    cursor: crosshair;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    
+}
 @media screen and (max-width: 480px) {
     .c-wrapper {
         flex-direction: column;
