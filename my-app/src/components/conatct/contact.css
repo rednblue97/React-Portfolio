@@ -81,6 +81,14 @@ button {
     cursor: crosshair;
 }
 
+.resume {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    width: 250px;
+    height: 100px;
+}
+
 @media screen and (max-width: 480px) {
     .c-wrapper {
         flex-direction: column;
@@ -115,5 +123,9 @@ button {
 
     button {
         margin-top: 10px;
+    }
+    
+    .resume {
+        text-align: center;
     }
 }

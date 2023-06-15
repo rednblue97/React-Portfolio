@@ -5,6 +5,7 @@ import Home from "../../img/address.png"
 import { useRef } from "react"
 import emailjs from 'emailjs-com';
 import { useState } from "react"
+import FileSaver from 'file-saver';
 
 const Contact = () => {
     const formRef = useRef();
@@ -21,6 +22,13 @@ const Contact = () => {
           console.log(error.text);
       });
 
+    }
+
+    const saveFile = () => {
+        FileSaver.saveAs(
+            process.env.REACT_APP_CLIENT_URL + "../../img/Resume(9).pdf",
+            "Resume(9).pdf"
+    );
     }
 
     return (
@@ -61,6 +69,9 @@ const Contact = () => {
                         <button>Submit</button>
                         {done && "Thank You!"}
                     </form>
+                    <button className="resume" onClick={saveFile}>
+                        Download my Resume 
+                    </button>
                 </div>
             </div>
         </div>
