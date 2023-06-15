@@ -20,7 +20,7 @@ const About = () => {
                 <h1 className="a-title">About Me</h1>
                 <p className="a-sub">
                 An avid enthusiast of National Parks who recently accomplished a full stack coding bootcamp,
-                blending your passion for nature with newfound skills in software development.
+                blending my passion for nature with newfound skills in software development.
         </p>
         <p className="a-desc">
         Throughout my coding bootcamp journey, I found immense joy in collaborating with my classmates, fostering a supportive and dynamic learning environment. 
