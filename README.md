@@ -35,7 +35,7 @@ N/A
 If there are any questions regarding this application please reach out to me.
 
 ## GitHub 
-https://github.com/CaptureB
+https://github.com/rednblue97
 
 ## Email
 probablydavidgarcia97@gmail.com
