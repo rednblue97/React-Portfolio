@@ -23,7 +23,7 @@ const ProjectList = () => {
              <a href ="https://lizedelman.github.io/bopsnbooze/" target="_blank" rel="noreferrer">
                         <img src={Bops} alt=""></img>
                     </a>
-                    <a href="https://captureb.github.io/PasswordGenerator/" target="_blank" rel="noreferrer">
+                    <a href="https://rednblue97.github.io/PasswordGenerator/" target="_blank" rel="noreferrer">
                         <img src={PassGen} alt=""></img>
                     </a>
                     <a href="https://over-under-21.herokuapp.com/" target="_blank" rel="noreferrer">
